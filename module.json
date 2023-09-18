@@ -1,0 +1,15 @@
+{
+  "id": "pathfinder2e-advanced-tech",
+  "title": "Pathfinder 2e Advanced Tech",
+  "description": "Adds advanced tech for use with homebrew Iron Gods campaign.",
+  "authors": [
+    {
+    "name": "Devlear"
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  }
+}
