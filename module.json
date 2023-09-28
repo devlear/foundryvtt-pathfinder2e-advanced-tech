@@ -1,15 +1,35 @@
 {
-  "id": "pathfinder2e-advanced-tech",
-  "title": "Pathfinder 2e Advanced Tech",
-  "description": "Adds advanced tech for use with homebrew Iron Gods campaign.",
-  "authors": [
-    {
-    "name": "Devlear"
-    }
-  ],
-  "version": "0.0.1",
+  "id": "pf2e-advanced-tech-and-monsters",
+  "title": "pf2e Advanced Tech and Monsters",
+  "version": "1.0.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
-  }
+  },
+  "description": "A module to add advanced tech and monsters, for use with homebrew Iron Gods campaign.",
+  "url": "https://github.com/devlear/foundryvtt-pathfinder2e-advanced-tech",
+  "packs": [
+    {
+      "name": "iron-gods-items",
+      "label": "Iron Gods Items",
+      "path": "packs/iron-gods-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "iron-gods-bestiary",
+      "label": "Iron Gods Bestiary",
+      "path": "packs/iron-gods-bestiary",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ]
 }
