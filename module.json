@@ -1,43 +1,35 @@
 {
-  "id": "pf2e-advanced-tech-and-monsters",
-  "title": "pf2e Advanced Tech and Monsters",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  },
-<<<<<<< HEAD
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
-
+    "id": "pf2e-advanced-tech-and-monsters",
+    "title": "pf2e Advanced Tech and Monsters",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "description": "A module to add advanced tech and monsters, for use with homebrew Iron Gods campaign.",
+    "url": "https://github.com/devlear/foundryvtt-pathfinder2e-advanced-tech",
+    "packs": [{
+            "name": "iron-gods-bestiary",
+            "label": "Iron Gods Bestiary",
+            "path": "./packs/iron-gods-bestiary.db",
+            "entity": "Actor",
+            "type": "Actor",
+            "system": "pf2e"
+        }, {
+            "name": "iron-gods-items",
+            "label": "Iron Gods Items",
+            "path": "./packs/iron-gods-items.db",
+            "entity": "Item",
+            "type": "Item",
+            "system": "pf2e"
+        }
+    ],
+    "relationships": {
+        "systems": [{
+                "id": "pf2e",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    }
 }
-=======
-  "description": "A module to add advanced tech and monsters, for use with homebrew Iron Gods campaign.",
-  "url": "https://github.com/devlear/foundryvtt-pathfinder2e-advanced-tech",
-  "packs": [
-	{
-      "name": "iron-gods-bestiary",
-      "label": "Iron Gods Bestiary",
-		"path": "./packs/iron-gods-bestiary.db",
-		"entity": "Actor",
-		"type": "Actor",
-      "system": "pf2e"
-	},
-	{
-      "name": "iron-gods-items",
-      "label": "Iron Gods Items",
-		"path": "./packs/iron-gods-items.db",
-		"entity": "Item",
-		"type": "Item",
-      "system": "pf2e"
-	}
-  ]
-}
->>>>>>> 265aed9 (Create initial compendiums for actors and items)
